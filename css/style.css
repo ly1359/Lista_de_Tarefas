@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+
+
+.top{
+    background-color: blueviolet;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.main{
+    padding: 0 50px;
+    background-color: #ccc;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.input{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 10px 0px;
+    color: blueviolet
+}
+
+.tarefa{
+    width: 300px;
+    height: 40px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    border: 0;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: 0;;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all easee 0.3s;
+}
+
+button:hover{
+    background-color: rgb(81, 19, 139);
+}
+
+
+.table{
+    width: 600px;
+}
+.content{
+    text-align: center;
+    margin: 15px 5px;
+}
+
+table{
+    margin: 50px 0;
+    border-collapse: collapse;
+    border: 2px solid blueviolet;
+    width: 100%;
+}
+
+table th{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+table th, td{
+    padding: 1px 5px;
+    text-align: center;
+}
+
+.content{
+    margin: 15px;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+}
