@@ -2,7 +2,7 @@
 // Verifica se o navegador suporta Push Notifications
 if ('Notification' in window && 'serviceWorker' in navigator) {
     // Registra o Service Worker
-    navigator.serviceWorker.register('service-worker.js')
+    navigator.serviceWorker.register('OneSignalSDKWorker.js.js')
       .then(function(registration) {
         console.log('Service Worker registrado com sucesso!', registration);
   
@@ -34,6 +34,7 @@ if ('Notification' in window && 'serviceWorker' in navigator) {
             app_id: '7eaa0f13-39b6-4a0f-806b-15520e7924be',
             contents: { en: 'Esta é uma mensagem de exemplo.' },
             headings: { en: 'Exemplo de Push Notification' },
+            included_segments: ['Active Users'],
             endpoint: endpoint,
             title: 'Exemplo de Push Notification',
             body: 'Esta é uma mensagem de exemplo.'
